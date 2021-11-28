@@ -1,0 +1,48 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.802);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.uzmuzInput {
+    padding: 10px;
+    outline: none;
+    border: 4px solid blueviolet;
+    border-radius: 5px;
+}
+
+.uzmuzInput:focus {
+    border: 4px solid red;
+}
+
+.uzmuzDiv_1 {
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(3, 20, 248);
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+.seconds {
+    font-size: 11px;
+}
+
+.secondCard {
+    display: flex;
+    justify-content: center;
+    padding: 0 5px 0 5px;
+}
+
+.navbar a {
+    text-decoration: none;
+}

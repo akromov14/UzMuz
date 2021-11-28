@@ -1,0 +1,47 @@
+.UzMuzDiv_2 {
+    min-height: 100vh;
+    background: url('https://www.onfirecafe.net/wp-content/uploads/2017/10/music-2191768_1920.jpg');
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.UzMuzDiv_2 a {
+    text-decoration: none;
+}
+
+.bg_color {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.556);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.header_iframe {
+    width: 560px;
+    height: 315px;
+}
+
+@media (max-width: 700px) {
+    .video {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .header_iframe {
+        width: 100%;
+        height: 260px;
+    }
+}
