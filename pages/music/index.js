@@ -71,7 +71,7 @@ const Music = () => {
                                             <div className="ashulachi">
                                                 <h3 className="m-2">{v.humans}</h3>
                                                 <audio src={v.audio} controls></audio>
-                                                <button className="btn"><a href={v.audio} download>Qo'shiqni yuklash</a></button>
+                                                {/* <button className="btn"><a href={v.audio} download>Qo'shiqni yuklash</a></button> */}
                                             </div>
                                         </div>
                                     </div>

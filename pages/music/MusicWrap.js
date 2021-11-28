@@ -89,7 +89,7 @@ const MusicWrap = styled.div`
         a{
             text-decoration: none;
             font-weight: bold;
-            color: white;
+            color: white ;
         }
     }
     @media (max-width: 700px){
