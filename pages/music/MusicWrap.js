@@ -84,6 +84,14 @@ const MusicWrap = styled.div`
             margin-top: 20px;
         }
     }
+    .btn{
+        background-color: blue;
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+    }
     @media (max-width: 700px){
         .card{
             width: 100%;

@@ -65,14 +65,13 @@ const Music = () => {
                                             <div className="rams">
                                                 <img src={v.img} alt="" />
                                                 <div className='download'>
-                                                    <button className='btn btn-primary'><a className='text-light fw-bold' download href={v.img}>Rasmni yuklash</a></button>
+                                                    <button className='btn'><a href={v.img} download>Rasmni yuklash</a></button>
                                                 </div>
                                             </div>
                                             <div className='ashulachi'>
                                                 <h3 className='m-2'>{v.humans}</h3>
                                                 <audio src={v.audio} controls></audio>
-                                                <button className='btn btn-primary mt-3 mb-3'><a className='text-light fw-bold' download href={v.audio}>Qo'shiqni yuklash</a></button>
-                                                
+                                                <button className='btn'><a href={v.audio} download>Qo'shiqni yuklash</a></button>
                                             </div>
                                         </div>
                                     </div>
