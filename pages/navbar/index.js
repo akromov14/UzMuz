@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Clock from './clock';
 import style from "./navbar.module.css"
 
 
